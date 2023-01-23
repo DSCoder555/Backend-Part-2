@@ -88,3 +88,4 @@ app.get('/api/courses/:id', (req,res)=>{
 app.listen(3000, () => {
     console.log('Listening on port 3000 ...');
 })
+//The terminal and Postman can send requests to each other to comminicate.  Postman sends a request to the localhost made by the js code, which can interpret it and either complete the action or return a 404 error.
